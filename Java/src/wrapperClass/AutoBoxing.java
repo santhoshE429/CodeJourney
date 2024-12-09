@@ -6,8 +6,8 @@ public class AutoBoxing {
 		Byte a=19;
 		Short c=12;
 		Integer b=10;
-		Long d=19089l;
 		Float e=10.8f;
+		Long d=19089l;////<----Short.ValueOf();
 		Double s=123.0;
 		Character v='s';
 		Boolean m=true;
