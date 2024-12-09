@@ -6,7 +6,7 @@ public class AutoUnBoxing {
 		//autoboxing
 	Integer i=99;
 	//autounboxing
-	int a=i;
+	int a=i;//<-------i.intValue()---
 	System.out.println(a);
 	System.out.println(i);
 
