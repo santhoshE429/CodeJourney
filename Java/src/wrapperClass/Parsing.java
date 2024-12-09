@@ -9,7 +9,7 @@ public class Parsing {
 		try {
 			int res = Integer.parseInt(str);
 		} catch (NumberFormatException e) {
-			System.out.println("Handled..");
+			System.out.println("Handled..");	
 		}
 		System.out.println("bye");
 //		System.out.println(parseByte(str));
