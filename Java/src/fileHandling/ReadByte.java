@@ -1,6 +1,7 @@
 package fileHandling;
 
 import java.io.FileInputStream;
+import java.util.Iterator;
 import java.util.Scanner;
 
 public class ReadByte {
@@ -12,9 +13,16 @@ public class ReadByte {
 		String path=sc.nextLine();
 		try {
 			fin=new FileInputStream(path);
-			System.out.print("Enter The Data:");
+			byte[]res=fin.readAllBytes();
+			fin.close();
+			for (int i = 0; i < res.length; i++) {
+				System.out.print((char)res[i]);
+				
+			}
+			System.out.println();
+			System.out.println("Done");
 		} catch (Exception e) {
-			// TODO: handle exception
+			System.out.println(e);
 		}
 		
 	}
