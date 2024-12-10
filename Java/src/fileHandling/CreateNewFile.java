@@ -20,6 +20,7 @@ public class CreateNewFile {
 				System.out.println("File is Already exits....... "+f.getName());
 			}
 		} catch (IOException e) {
+			System.out.println("An Error Occured.........");
 			e.printStackTrace();
 		}
 		
