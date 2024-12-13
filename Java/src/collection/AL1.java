@@ -36,6 +36,8 @@ class Student {
 	}
 	
 	
+	
+	
 }
 class Employee{
 	int empid;
@@ -52,24 +54,32 @@ class Employee{
 		return "Employee [empid=" + empid + ", sal=" + sal + ", name=" + name + "]";
 	}
 	
+	
 }
 
 public class AL1 {
 
 	public static void main(String[] args) {
 		List bag1=new ArrayList();
-		bag1.add(new Student(20,99,"Sant"));
+		bag1.add(new Student(29,99,"Sant"));
+		bag1.add(new Student(22,100,"Jp"));
 		bag1.add(new Student(22,100,"Jp"));
 		
 		List bag2=new ArrayList();
 		bag2.add(new Employee(1, 100000, "Santhosh"));
 		bag2.add(new Employee(2, 200000, "Jp"));
+		
 		bag2.add(new Employee(22,100,"Jp"));
 		System.out.println(bag1);
 		System.out.println(bag2);
-		System.out.println(bag1.hashCode());
+		Object o=bag1.get(0);
+		Object o1=bag1.get(1);
+		Object o2=bag1.get(2);
+		System.out.println(o.hashCode());
 		System.out.println(bag2.hashCode());
-		System.out.println(bag1.equals(bag2));
+		System.out.println(o1);
+		System.out.println(o2);
+		System.out.println(o1.equals(o2));
 	}
 
 }
