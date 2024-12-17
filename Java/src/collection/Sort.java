@@ -25,5 +25,16 @@ public class Sort {
 		Collections.sort(ls2);
 		System.out.println(ls2);
 		
+		List ls3=new ArrayList();
+		ls3.add(30);
+		ls3.add(89);
+		ls3.add(53);
+		ls3.add(23);
+		Collections.sort(ls3);
+		System.out.println(ls3);
+		Collections.sort(ls3,Collections.reverseOrder());
+		System.out.println(ls3);
+		
+		
 	}
 }
