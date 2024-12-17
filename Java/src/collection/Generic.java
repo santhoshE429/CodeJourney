@@ -28,6 +28,12 @@ public class Generic {
 		ls.add(1, new Student2(8, "Tabrez"));
 		
 		System.out.println(ls);
+		
+		List<Integer>i1=new ArrayList<Integer>();
+		i1.add(1);
+		i1.add(5);
+		i1.add(90);
+		System.out.println(i1);
 
 	}
 
