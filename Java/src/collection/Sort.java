@@ -1,7 +1,6 @@
 package collection;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
@@ -34,6 +33,7 @@ public class Sort {
 		System.out.println(ls3);
 		Collections.sort(ls3,Collections.reverseOrder());
 		System.out.println(ls3);
+		
 		
 		
 	}
