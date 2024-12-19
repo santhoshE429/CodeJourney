@@ -36,7 +36,20 @@ import java.util.Collections;
 			
 			return -1;
 		}
+////		if(this.name.equals(l.name))
+////		{
+////			return 0;
+////		}
+////		else if(this.name.compareTo(l.name) > l.name.compareTo(this.name))
+////		{
+////			return 1;	
+////		}
+////		else
+////		{
+////			return -1;
+////		}
 //		return this.name.compareTo(l.name);
+//		
 	}
 	
 }
@@ -48,7 +61,10 @@ public class Amazon{
 		products.add(new Laptop(1, "Hp",10000));
 		products.add(new Laptop(2, "Hcl", 25999));
 		products.add(new Laptop(3, "Lenovo", 129999));
-		products.add(new Laptop(3, "Apple", 23199));
+		products.add(new Laptop(8, "Apple", 23199));
+		products.add(new Laptop(9, "Apple", 23199));
+		
+
 		
 		System.out.println("Before Sorting:"+products);
 		
