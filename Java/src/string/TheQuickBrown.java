@@ -4,7 +4,7 @@ public class TheQuickBrown {
 
 	public static void main(String[] args) {
 		
-		String s="The Quick brown fox jumps over the lazy dog";
+		String s="The Quick brown fox jumps over the laz dog";
 		s=s.toLowerCase();
 		char []a=s.toCharArray();
 		

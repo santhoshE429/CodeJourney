@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class bubbleSort {
 
 	public static void main(String[] args) {
-		int[] a= new int [] {24,2,0,209,6,};
+		int[] a= {24,2,0,209,6,};
 		int temp;
 		System.out.println("Before sorting "+ Arrays.toString(a));
 		 for(int i=0;i<a.length;i++)
